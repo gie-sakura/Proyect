@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title LetsTalkSaku
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    meta(charset='UTF-8')
+    link(rel='stylesheet', href='/stylesheets/Estiloindex.css')
+  body
+    script(type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js')
+    script(type='text/javascript' src='/javascripts/simplewebrtc.bundle.js')
+    script(type='text/javascript' src='/javascripts/latest.js')
+    script(type='text/javascript' src='/javascripts/jsindex.js')
+    script(type='text/javascript' src='/javascripts/Estiloindex.js')
+    img#bg(src='images/saku.jpg', alt='background')
+
+ 
+    .container
+      .row
+        .span12
+        block content
+    block footer
+      script(type='text/javascript' src='/javascripts/jquery.min.js')
+      script(type='text/javascript' src='/javascripts/bootstrap.js')
